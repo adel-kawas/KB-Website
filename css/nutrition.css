@@ -1,0 +1,356 @@
+/* Colors */
+:root {
+    --white: #ffffff;
+    --f8f8f8: #f8f8f8;
+    --black: #212121;
+    --powder-pink-kalim: #e4c0cf;
+    --black-two-kalim: #232323;
+}
+
+/* Font Style */
+@font-face {
+    font-family: 'DIN';
+    src: url(/component/DINCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/component/Montserrat-Bold.ttf) format("truetype");
+}
+
+
+/* HTML */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Top Part container */
+.navBar {
+    display: flex;
+    height: 249px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+/* margin-left: 100px; */
+    /* margin: 7vh 0 5vh 3vh; */
+    display: flex;
+    align-items: center;
+
+}
+
+/* Div Logo */
+.logo img {
+  
+    width: 57%;
+    
+}
+
+/* Div for all the buttons top navbar */
+.navBtn {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
+/* Changing the look of the "a" */
+.navBtn a {
+    text-decoration: none;
+    margin: 0 3vh 0 3vh;
+    font-family: 'DIN';
+    /* font-size: 1.8vh; */
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    font-size: 30px;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+
+}
+
+/* Line design */
+div:empty {
+    background-color: var(--powder-pink-kalim);
+    width: 100%;
+    height: 8px;
+    /* margin-top:; */
+}
+
+/* Logo Options */
+.nutriLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Whole container */
+.allMeals{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: justify;
+    background: linear-gradient(to top,
+    var(--black-two-kalim) 50%,
+    white 50%);
+    width: 1440px;
+    height: 460.6px;
+    padding: 172px 270px 67.6px 262px;
+    background-color: var(--black-two-kalim);
+
+
+
+}
+/* Title Beneth Picture */
+.allMeals h1{
+    width: 310px;
+  height: 28px;
+  margin: 0 273px 20px 0;
+  font-family: 'DIN';
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.04;
+  letter-spacing: normal;
+  color: var(--powder-pink-kalim);
+}
+/* Text Beneth Title */
+.allMeals p{
+    width: 325px;
+    height: 80px;
+    margin: 20px 258px 32px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+/* Button beneth text */
+.allMeals a{
+    width: 103px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--powder-pink-kalim);
+    text-decoration: none;
+    margin: 32px 445px 0 0;
+    padding: 12px 17px 11px 18px;
+    border-radius: 10px;
+    border: solid 3px var(--powder-pink-kalim);
+}
+/* Last section Middle */
+.lastMeal{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: justify;
+    background: linear-gradient(to top,
+    var(--black-two-kalim) 50%,
+    white 50%);
+    width: 1440px;
+    height: 460.6px;
+    padding: 172px 270px 67.6px 262px;
+    background-color: var(--black-two-kalim);
+
+
+
+}
+/* Last Behenth title  */
+.lastMeal h1{
+    width: 310px;
+  height: 28px;
+  margin: 0 273px 20px 0;
+  font-family: 'DIN';
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.04;
+  letter-spacing: normal;
+  color: var(--powder-pink-kalim);
+}
+/* Last Beneth Text */
+.lastMeal p{
+    width: 325px;
+    height: 80px;
+    margin: 20px 258px 32px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+/* Last Button */
+.lastMeal a{
+    width: 103px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--powder-pink-kalim);
+    text-decoration: none;
+    margin: 32px 445px 0 0;
+    padding: 12px 17px 11px 18px;
+    border-radius: 10px;
+    border: solid 3px var(--powder-pink-kalim);
+}
+
+/* Footer Container */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 7.2vh;
+    margin: 0 13vh 8vh 13vh;
+    padding-top: 10vh;
+}
+
+/* Nav buttons */
+.navFooter {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+/* Nav Links */
+.navFooter a {
+    text-decoration: none;
+    margin: 0 37px 18px 0;
+    font-family: 'DIN';
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+
+}
+
+/* Insta Div */
+.contactFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Text */
+.contactFooter p {
+    margin: 0 0 23px;
+    font-family: 'DIN';
+    font-size: 3vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+}
+
+.contactFooter img{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* black end of page */
+.bottomEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3vh;
+    background-color: var(--black-two-kalim);
+
+}
+
+.bottomEnd p {
+    font-family: 'DIN';
+    font-size: 2vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--powder-pink-kalim);
+
+}
+
+.first {
+    margin-right: 23vh;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .navBtn{
+        display: none;
+    }
+    .allMeals{
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    }
+
+
+    .allMeals h1{
+        width: auto;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .allMeals p{
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        text-align: center;
+    }
+    .allMeals a{
+        text-align: center;
+        margin: auto;
+        
+    }
+    .lastMeal{
+        width: auto;
+        margin: auto;
+        height: auto;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .thePlan{
+        background: linear-gradient(to top,
+        var(--black-two-kalim) 50%,
+        white 50%);
+        padding-bottom: 10vh;
+    }
+}

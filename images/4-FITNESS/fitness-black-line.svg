@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="40" viewBox="0 0 1440 40">
+  <defs>
+    <clipPath id="clip-fitness-black-line">
+      <rect width="1440" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="fitness-black-line" clip-path="url(#clip-fitness-black-line)">
+    <g id="Group_484" data-name="Group 484" transform="translate(-89 -944)">
+      <path id="Path_395" data-name="Path 395" d="M0,0H1440V40H0Z" transform="translate(1529 983.516) rotate(180)" fill="#232323"/>
+    </g>
+  </g>
+</svg>

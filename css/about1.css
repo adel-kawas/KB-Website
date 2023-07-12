@@ -1,0 +1,248 @@
+/* Colors */
+:root {
+    --white: #ffffff;
+    --f8f8f8: #f8f8f8;
+    --black: #212121;
+    --powder-pink-kalim: #e4c0cf;
+    --black-two-kalim: #232323;
+}
+
+/* Font Style */
+@font-face {
+    font-family: 'DIN';
+    src: url(/component/DINCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/component/Montserrat-Bold.ttf) format("truetype");
+}
+
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.current {
+    width: 70px;
+    height: 40px;
+    padding: 8px 9px 1px 8px;
+    border-radius: 4px;
+    background-color: var(--powder-pink-kalim);
+}
+
+/* Header */
+.header{
+    display: flex;
+    height: 249px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLogo{
+    margin-left: 114.4px;
+}
+
+.headerLogo img {
+    width: 85.6px;
+    height: 85.6px;
+}
+
+.headerNav{
+    margin-right: 110px;
+}
+
+.headerNav a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-two-kalim);
+}
+/* Profile Image */
+.profilePic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top,
+            #232323 50%,
+            white 50%);
+}
+
+.name{
+    background-color: var(--black-two-kalim);
+    padding-top: 102px;
+    
+}
+/* Text Name */
+.fname{
+    /* width: 497px; */
+    height: 100px;
+    margin: 0 0 13px;
+    font-family: 'DIN';
+    font-size: 99px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+/* Underline Name */
+.empty:empty{
+    width: 497px;
+    height: 5px;
+    margin: 13px 0 0;
+    background-color: var(--powder-pink-kalim);
+    margin: 0 auto;
+}
+
+.text{
+    background-color: var(--black-two-kalim);
+    padding-bottom: 128px;
+}
+
+p{
+    margin-left:  145px;
+    margin-right: 145px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+.firstLine{
+    padding-bottom: 26px;
+    padding-top: 91px;
+}
+.secondLine{
+    margin-left: 145px;
+    margin-right: 145px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+
+/* Footer */
+.footerNav {
+    display: flex;
+    height: 305px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footerNavText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.footerNavText a {
+    font-family: "DIN";
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim); 
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+.footerSocialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 121px;
+}
+
+.footerSocialMedia p {
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);  
+    margin-bottom: 23px;
+}
+
+.footerSocialMedia a img {
+    width: 59px;
+    height: 59px;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--black-two-kalim);
+}
+
+.first, .second {
+    font-family: "DIN";
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--powder-pink-kalim);
+}
+
+.second {
+    text-decoration: none;
+}
+
+div:empty {
+    background-color: var(--powder-pink-kalim);
+    width: 100%;
+    height: 8px;
+}
+
+
+/* Media query */
+@media only screen and (max-width: 900px) {
+    /* Header */
+    .header {
+        justify-content: center;
+    }
+    .headerNav {
+        display: none;
+    }
+
+    .footerSocialMedia{
+        margin-right: 0;
+    }
+
+    .footerNavText{
+        margin-left: 0;
+    }
+}

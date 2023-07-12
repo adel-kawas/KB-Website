@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="359" height="281" viewBox="0 0 359 281">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray"/>
+    </radialGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_180" data-name="Rectangle 180" width="359" height="281" rx="20" transform="translate(541 2158)" fill="url(#radial-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-major-shred">
+      <rect width="359" height="281"/>
+    </clipPath>
+  </defs>
+  <g id="major-shred" clip-path="url(#clip-major-shred)">
+    <g id="Group_475" data-name="Group 475" transform="translate(-481 -11920)">
+      <rect id="Rectangle_179" data-name="Rectangle 179" width="359" height="281" rx="20" transform="translate(481 11920)" fill="#fff"/>
+      <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(-60 9762)" clip-path="url(#clip-path)">
+        <g id="Group_445" data-name="Group 445" transform="translate(21 -14)">
+          <text id="MAJOR_SHRED" data-name="MAJOR
+       SHRED" transform="translate(675 2315)" fill="#f7eff3" font-size="178" font-family="DINCondensed-Bold, DIN Condensed" font-weight="700" letter-spacing="-0.095em"><tspan x="-157.352" y="0">MAJOR</tspan><tspan x="-205.679" y="127" xml:space="preserve">       SHRED</tspan></text>
+          <text id="MAJOR_SHRED-2" data-name="MAJOR
+       SHRED" transform="translate(690 2312)" fill="#232323" font-size="85" font-family="DINCondensed-Bold, DIN Condensed" font-weight="700" letter-spacing="-0.095em"><tspan x="-75.14" y="0">MAJOR</tspan><tspan x="-98.218" y="60" xml:space="preserve">       SHRED</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

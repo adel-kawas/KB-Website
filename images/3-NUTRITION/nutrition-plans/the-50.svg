@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="359" height="281" viewBox="0 0 359 281">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_178" data-name="Rectangle 178" width="359" height="281" rx="20" transform="translate(122 2158)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-the-50">
+      <rect width="359" height="281"/>
+    </clipPath>
+  </defs>
+  <g id="the-50" clip-path="url(#clip-the-50)">
+    <g id="Group_546" data-name="Group 546" transform="translate(-11 -10)">
+      <rect id="Rectangle_177" data-name="Rectangle 177" width="359" height="281" rx="20" transform="translate(11 10)" fill="#fff"/>
+      <g id="Mask_Group_12" data-name="Mask Group 12" transform="translate(-111 -2148)" clip-path="url(#clip-path)">
+        <g id="Group_444" data-name="Group 444" transform="translate(-54 -369.238)">
+          <text id="THE50" transform="translate(359 2597.238)" fill="#f7eff3" font-size="195" font-family="DINCondensed-Bold, DIN Condensed" font-weight="700"><tspan x="-182.52" y="0">THE50</tspan></text>
+          <text id="THE50-2" data-name="THE50" transform="translate(359 2874.238)" fill="#f7eff3" font-size="195" font-family="DINCondensed-Bold, DIN Condensed" font-weight="700"><tspan x="-182.52" y="0">THE50</tspan></text>
+          <text id="THE50-3" data-name="THE50" transform="translate(359 2735.238)" fill="#232323" font-size="195" font-family="DINCondensed-Bold, DIN Condensed" font-weight="700"><tspan x="-182.52" y="0">THE50</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,275 @@
+:root {
+    --white: #ffffff;
+    --f8f8f8: #f8f8f8;
+    --black: #212121;
+    --powder-pink-kalim: #e4c0cf;
+    --black-two-kalim: #232323;
+}
+
+/* Font Style */
+@font-face {
+    font-family: 'DIN';
+    src: url(/component/DINCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/component/Montserrat-Bold.ttf) format("truetype");
+}
+
+
+/* HTML */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Top Part container */
+.navBar {
+    display: flex;
+    height: 249px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+/* margin-left: 100px; */
+    /* margin: 7vh 0 5vh 3vh; */
+    display: flex;
+    align-items: center;
+
+}
+
+/* Div Logo */
+.logo img {
+  
+    width: 57%;
+    
+}
+
+/* Div for all the buttons top navbar */
+.navBtn {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
+/* Changing the look of the "a" */
+.navBtn a {
+    text-decoration: none;
+    margin: 0 3vh 0 3vh;
+    font-family: 'DIN';
+    /* font-size: 1.8vh; */
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    font-size: 30px;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+
+}
+
+/* Contact Page starts */
+
+
+/* Contact Title */
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title h1{
+    width: 270px;
+    height: 101px;
+    margin: 0 0 0 6px;
+    font-family: 'DIN';
+    font-size: 100px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+    padding-bottom: 4.5vh;
+}
+
+.title img{
+    /* width: 60px;
+    height: 60px; */
+    object-fit: contain;
+    padding-bottom: 5.5vh;
+    
+}
+
+.title p{
+    width: 282px;
+    height: 50px;
+    font-family: 'DIN';
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+}
+
+/* Test starts from here */
+/* Style inputs */
+/* Style inputs with type="text", select elements and textareas */
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 395px;
+    padding: 78px 110px 91px;
+    background-color: var(--black-two-kalim);
+}
+
+
+.colum_one{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.contact input{
+    
+    width: 541px;
+    height: 62px;
+    margin: 0 39px 20px 0;
+    /* padding: 19px 445px 19px 34px; */
+    border-radius: 20px;
+    border: solid 2px var(--powder-pink-kalim);
+}
+.colum_two{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vh;
+    
+}
+
+.colum_two input{
+    width: 640px;
+    height: 147px;
+    margin: 0 0 17px 39px;
+    padding: 19px 384px 104px 30px;
+    border-radius: 20px;
+    border: solid 2px var(--powder-pink-kalim);
+
+}
+
+.colum_two a{
+    width: 138px;
+    height: 45px;
+    margin: 34px 0 0 541px;
+    padding: 12px 45px 11px;
+    border-radius: 10px;
+    background-color: var(--powder-pink-kalim);
+    text-decoration: none;
+    color: var(--black-two-kalim);
+}
+
+.colum_two a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Footer Container */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 7.2vh;
+    margin: 0 13vh 8vh 13vh;
+}
+
+/* Nav buttons */
+.navFooter {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+/* Nav Links */
+.navFooter a {
+    text-decoration: none;
+    margin: 0 37px 18px 0;
+    font-family: 'DIN';
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+
+}
+
+/* Insta Div */
+.contactFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Text */
+.contactFooter p {
+    margin: 0 0 23px;
+    font-family: 'DIN';
+    font-size: 3vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+}
+
+.contactFooter img{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* black end of page */
+.bottomEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3vh;
+    background-color: var(--black-two-kalim);
+
+}
+
+.bottomEnd p {
+    font-family: 'DIN';
+    font-size: 2vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--powder-pink-kalim);
+
+}
+
+.first {
+    margin-right: 23vh;
+}
+div:empty {
+    background-color: var(--powder-pink-kalim);
+    width: 100%;
+    height: 8px;
+    margin-bottom: 7vh;
+}

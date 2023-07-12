@@ -1,0 +1,250 @@
+/* Colors */
+:root {
+    --white: #ffffff;
+    --f8f8f8: #f8f8f8;
+    --black: #212121;
+    --powder-pink-kalim: #e4c0cf;
+    --black-two-kalim: #232323;
+}
+
+/* Font Style */
+@font-face {
+    font-family: 'DIN';
+    src: url(/component/DINCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/component/Montserrat-Bold.ttf) format("truetype");
+}
+
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.current {
+    width: 70px;
+    height: 40px;
+    padding: 8px 9px 1px 8px;
+    border-radius: 4px;
+    background-color: var(--powder-pink-kalim);
+}
+
+/* Header */
+.header{
+    display: flex;
+    height: 249px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLogo{
+    margin-left: 114.4px;
+}
+
+.headerLogo img {
+    width: 85.6px;
+    height: 85.6px;
+}
+
+.headerNav{
+    margin-right: 110px;
+}
+
+.headerNav a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-two-kalim);
+}
+
+
+/* Whole container background */
+.middle {
+    background-color: var(--black-two-kalim);
+}
+
+/* Container Profile Picture */
+.profileImg {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top,
+            #232323 50%,
+            white 50%);
+}
+
+
+/* Container all middle */
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 534px;
+}
+
+/* Container Name */
+.name {
+    text-align: center;
+
+    font-family: DIN;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--white);
+}
+
+/* hr line below name */
+.line {
+    display: block;
+    margin: auto 27.5%;
+    border: 3px solid var(--powder-pink-kalim);
+
+}
+
+/* Text info */
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 9vh;
+    padding-bottom: 12vh;
+
+
+}
+.infoSecond{
+    height: 280px;
+
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 2vh;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: var(--white);
+    margin: 0 10vh;
+    padding: 0 10vh;
+
+}
+
+
+/* Footer */
+.footerNav {
+    display: flex;
+    height: 305px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footerNavText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.footerNavText a {
+    font-family: "DIN";
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim); 
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+.footerSocialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 121px;
+}
+
+.footerSocialMedia p {
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);  
+    margin-bottom: 23px;
+}
+
+.footerSocialMedia a img {
+    width: 59px;
+    height: 59px;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--black-two-kalim);
+}
+
+.first, .second {
+    font-family: "DIN";
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--powder-pink-kalim);
+}
+
+.second {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .navBtn{
+        display: none;
+    }
+    .title{
+        height: auto;
+    }
+    .name{
+        font-size: 56px;
+    }
+    .line{
+         width: 100%;
+         margin: 0;
+    }
+    .infoSecond{
+        height: auto;
+    }
+    .info{
+        padding: 0;
+    }
+    p{
+        padding: 37px;
+        margin: 0;
+    }
+
+}

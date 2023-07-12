@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="300" viewBox="0 0 380 300">
+  <defs>
+    <filter id="Rectangle_181" x="-7" y="-8" width="395" height="317" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_182" data-name="Rectangle 182" width="359" height="281" rx="20" transform="translate(541 2158)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-muscle-building">
+      <rect width="380" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="muscle-building" clip-path="url(#clip-muscle-building)">
+    <g id="Group_476" data-name="Group 476" transform="translate(-1033 -11910)">
+      <g transform="matrix(1, 0, 0, 1, 1033, 11910)" filter="url(#Rectangle_181)">
+        <rect id="Rectangle_181-2" data-name="Rectangle 181" width="359" height="281" rx="20" transform="translate(11 10)" fill="#fff"/>
+      </g>
+      <g id="Mask_Group_14" data-name="Mask Group 14" transform="translate(503 9762)" clip-path="url(#clip-path)">
+        <g id="Group_446" data-name="Group 446" transform="translate(21 -14)">
+          <text id="MUSCLE_BUILDING" data-name="MUSCLE
+       BUILDING" transform="translate(668 2303)" fill="#f7eff3" font-size="147" font-family="DINCondensed-Bold, DIN Condensed" font-weight="700" letter-spacing="-0.095em" opacity="0.996"><tspan x="-151.41" y="0">MUSCLE</tspan><tspan x="-213.003" y="105" xml:space="preserve">       BUILDING</tspan></text>
+          <text id="MUSCLE_BUILDING-2" data-name="MUSCLE
+       BUILDING" transform="translate(688 2312)" fill="#232323" font-size="85" font-family="DINCondensed-Bold, DIN Condensed" font-weight="700" letter-spacing="-0.095em"><tspan x="-87.55" y="0">MUSCLE</tspan><tspan x="-123.165" y="60" xml:space="preserve">       BUILDING</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

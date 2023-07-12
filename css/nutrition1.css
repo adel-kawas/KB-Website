@@ -1,0 +1,313 @@
+/* Colors */
+:root {
+    --white: #ffffff;
+    --f8f8f8: #f8f8f8;
+    --black: #212121;
+    --powder-pink-kalim: #e4c0cf;
+    --black-two-kalim: #232323;
+}
+
+/* Font Style */
+@font-face {
+    font-family: 'DIN';
+    src: url(/component/DINCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/component/Montserrat-Bold.ttf) format("truetype");
+}
+
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.current {
+    width: 70px;
+    height: 40px;
+    padding: 8px 9px 1px 8px;
+    border-radius: 4px;
+    background-color: var(--powder-pink-kalim);
+}
+
+/* Header */
+.header {
+    display: flex;
+    height: 249px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    margin-left: 114.4px;
+}
+
+.headerLogo img {
+    width: 85.6px;
+    height: 85.6px;
+}
+
+.headerNav {
+    margin-right: 110px;
+}
+
+.headerNav a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-two-kalim);
+}
+
+/* Nutrition Lines */
+.nutritionLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 109px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "container-1 container-2"
+        "container-3 container-4"
+        "container-5 container-5";
+}
+
+.container-1 {
+    grid-area: container-1;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top,
+            var(--black-two-kalim) 60%,
+            white 50%);
+    align-items: center;
+
+}
+
+.container-2 {
+    grid-area: container-2;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top,
+            var(--black-two-kalim) 60%,
+            white 50%);
+    align-items: center;
+}
+
+.container-3 {
+    grid-area: container-3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top,
+            var(--black-two-kalim) 60%,
+            white 50%);
+}
+
+.container-4 {
+    grid-area: container-4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top,
+            var(--black-two-kalim) 60%,
+            white 50%);
+}
+
+.container-5 {
+    grid-area: container-5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top,
+            var(--black-two-kalim) 60%,
+            white 50%);
+}
+
+
+
+.plan {
+    align-self: center;
+    /* padding-bottom: 32px; */
+    margin-bottom: 32px;
+
+
+}
+
+.title {
+    text-align: center;
+    font-family: "DIN";
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: normal;
+    color: var(--powder-pink-kalim);
+    /* padding-bottom: 20px; */
+    text-align: justify;
+    margin-bottom: 20px;
+    
+}
+
+.text {
+margin-bottom: 32px;
+    width: 325px;
+    height: 80px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+    text-align: justify;
+    color: var(--white);
+    /* padding-bottom: 32px; */
+    
+}
+
+.btn {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+    color: var(--powder-pink-kalim);
+    padding: 12px 17px 11px 18px;
+    border-radius: 10px;
+    border: solid 3px var(--powder-pink-kalim);
+    margin-bottom: 67.5px;
+}
+
+/* Footer */
+.footerNav {
+    display: flex;
+    height: 305px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footerNavText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.footerNavText a {
+    font-family: "DIN";
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim); 
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+.footerSocialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 121px;
+}
+
+.footerSocialMedia p {
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);  
+    margin-bottom: 23px;
+}
+
+.footerSocialMedia a img {
+    width: 59px;
+    height: 59px;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--black-two-kalim);
+}
+
+.first, .second {
+    font-family: "DIN";
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--powder-pink-kalim);
+}
+
+.second {
+    text-decoration: none;
+}
+
+/* Pink line */
+div:empty {
+    background-color: var(--powder-pink-kalim);
+    width: 100%;
+    height: 8px;
+}
+
+/* Media query */
+@media only screen and (max-width: 900px) {
+
+    /* Header */
+    .header {
+        justify-content: center;
+
+    }
+
+    .headerNav {
+        display: none;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "container-1"
+            "container-2"
+            "container-3"
+            "container-4"
+            "container-5";
+    }
+
+    .plan{
+        padding-top: 82.7px;
+    }
+}

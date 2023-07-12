@@ -1,0 +1,366 @@
+/* Colors */
+:root {
+    --white: #ffffff;
+    --f8f8f8: #f8f8f8;
+    --black: #212121;
+    --powder-pink-kalim: #e4c0cf;
+    --black-two-kalim: #232323;
+}
+
+/* Font Style */
+@font-face {
+    font-family: 'DIN';
+    src: url(/component/DINCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/component/Montserrat-Bold.ttf) format("truetype");
+}
+
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.current {
+    width: 70px;
+    height: 40px;
+    padding: 8px 9px 1px 8px;
+    border-radius: 4px;
+    background-color: var(--powder-pink-kalim);
+}
+
+/* Header */
+.header {
+    display: flex;
+    height: 249px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    margin-left: 114.4px;
+}
+
+.headerLogo img {
+    width: 85.6px;
+    height: 85.6px;
+}
+
+.headerNav {
+    margin-right: 110px;
+}
+
+.headerNav a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-two-kalim);
+}
+
+/* Image Banner */
+.imageBanner {
+    height: 652px;
+    background-image: url(/images/1-HOME/home-photo.png);
+
+}
+
+/* Nutrition Image */
+.nutritionImage {
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Nutrition bar testing */
+
+/* This part is for the bigger part all of the container */
+.section {
+    width: 100%;
+    /* min-height: 100vh; */
+    font-size: 36px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--black-two-kalim);
+}
+
+/* Can be ignored */
+.horizontal {
+    /* background-color: violet; */
+}
+
+
+.scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    /* background-color: yellow; */
+
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    width: 300px;
+    min-width: 300px;
+    /* height: 100px; */
+    padding: 30px;
+    /* background: #222; */
+    color: #fff;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+/* Pink line */
+div:empty {
+    background-color: var(--powder-pink-kalim);
+    width: 100%;
+    height: 8px;
+}
+
+/* Fitness Section */
+.fitenessImage {
+    display: flex;
+    margin-top: 135px;
+    margin-bottom: 108px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fitnessContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 151.4px;
+}
+
+.fitenessContentImage {
+    margin-left: 169px;
+    margin-right: 167.6px;
+}
+
+.fitnessContentText {
+    flex: 2;
+    margin-right: 226px;
+}
+
+.fitnessContentText p {
+    font-family: "DIN";
+    font-size: 46px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+    margin-bottom: 22px;
+}
+
+.fitnessContentText a {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+    color: #1a1b1b;
+    padding: 12px 19px 11px 18px;
+    border-radius: 10px;
+    border: solid 3px var(--powder-pink-kalim);
+    text-decoration: none;
+}
+
+.fitnessContentText {
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Footer */
+.footerNav {
+    display: flex;
+    height: 305px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footerNavText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.footerNavText a {
+    font-family: "DIN";
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+.footerSocialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 121px;
+}
+
+.footerSocialMedia p {
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+    margin-bottom: 23px;
+}
+
+.footerSocialMedia a img {
+    width: 59px;
+    height: 59px;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--black-two-kalim);
+}
+
+.first,
+.second {
+    font-family: "DIN";
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--powder-pink-kalim);
+}
+
+.second {
+    text-decoration: none;
+}
+
+/* Media query */
+@media only screen and (max-width: 900px) {
+
+    /* Header */
+    .header {
+        justify-content: center;
+    }
+
+    .headerNav {
+        display: none;
+    }
+
+    /* Fitness Section */
+    .fitnessSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fitnessContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fitenessContentImage {
+        order: 1;
+        margin: 0;
+
+    }
+
+    .fitenessContentImage img {
+        width: 257.2px;
+        height: 176.9px;
+        margin-top: 66.9px;
+    }
+
+    .fitnessContentText {
+        margin-bottom: 0;
+        flex: 1 !important;
+        margin-right: 0;
+    }
+
+    .fitnessContentText p {
+        font-size: 23px;
+    }
+
+    .fitnessContentText a {
+        font-size: 15px;
+    }
+
+    .imageBanner {
+        background-position: center;
+    }
+
+    .footerSocialMedia {
+        margin-right: 0;
+    }
+    .footerNavText{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: auto;
+        margin: auto;
+
+    }
+    .footerNav {
+        flex-direction: column;
+       
+    }
+    .rowOne{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .rowOne a{
+        margin: 5px;
+    }
+
+
+
+
+}

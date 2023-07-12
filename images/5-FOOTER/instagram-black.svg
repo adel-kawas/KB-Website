@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="Group_482" data-name="Group 482" transform="translate(-1189 -3578)">
+      <g id="Group_46" data-name="Group 46" transform="translate(1189 3578)">
+        <g id="Component_10_6" data-name="Component 10 – 6">
+          <g id="instagram">
+            <path id="Path_1" data-name="Path 1" d="M43.442,0H16.557A16.577,16.577,0,0,0,0,16.558V43.442A16.576,16.576,0,0,0,16.557,60H43.442A16.577,16.577,0,0,0,60,43.442V16.558A16.577,16.577,0,0,0,43.442,0ZM54.677,43.442A11.247,11.247,0,0,1,43.442,54.677H16.557A11.247,11.247,0,0,1,5.323,43.442V16.558A11.247,11.247,0,0,1,16.557,5.323H43.442A11.247,11.247,0,0,1,54.677,16.558V43.442Z" transform="translate(0 0)" fill="#232323"/>
+            <path id="Path_2" data-name="Path 2" d="M56.78,40.97A15.812,15.812,0,1,0,72.592,56.782,15.83,15.83,0,0,0,56.78,40.97Zm0,26.178A10.367,10.367,0,1,1,67.147,56.781,10.379,10.379,0,0,1,56.78,67.148Z" transform="translate(-26.78 -26.781)" fill="#232323"/>
+            <path id="Path_3" data-name="Path 3" d="M121.955,28.251a3.032,3.032,0,1,0,2.146.888A3.046,3.046,0,0,0,121.955,28.251Z" transform="translate(-76.434 -18.588)" fill="#232323"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,274 @@
+/* Colors */
+:root {
+    --white: #ffffff;
+    --f8f8f8: #f8f8f8;
+    --black: #212121;
+    --powder-pink-kalim: #e4c0cf;
+    --black-two-kalim: #232323;
+}
+
+/* Font Style */
+@font-face {
+    font-family: 'DIN';
+    src: url(/component/DINCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/component/Montserrat-Bold.ttf) format("truetype");
+}
+
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.current {
+    width: 70px;
+    height: 40px;
+    padding: 8px 9px 1px 8px;
+    border-radius: 4px;
+    background-color: var(--powder-pink-kalim);
+}
+
+/* Header */
+.header{
+    display: flex;
+    height: 249px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLogo{
+    margin-left: 114.4px;
+}
+
+.headerLogo img {
+    width: 85.6px;
+    height: 85.6px;
+}
+
+.headerNav{
+    margin-right: 110px;
+}
+
+.headerNav a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-two-kalim);
+}
+
+/* Title Logo starts here */
+.fitnessLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.fitnessLogo h1{
+    font-family: "DIN";
+    font-size: 46px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black-two-kalim);
+    padding-top: 109px;
+    padding-bottom: 132px;
+}
+
+
+
+
+
+/* Sessions Start here */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "session-1 zoom-session"
+      "workshop-session group-session"
+      "seminars seminars";
+  }
+  .session-1 { grid-area: session-1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 200px; */
+    padding-bottom: 154px;
+
+    }
+  .zoom-session { grid-area: zoom-session; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-right: 200px; */
+    padding-bottom: 154px;
+    }
+  .workshop-session { grid-area: workshop-session; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 200px; */
+    padding-bottom: 154px;
+    }
+  .group-session { grid-area: group-session; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-right: 200px; */
+    padding-bottom: 154px;
+    }
+  .seminars { grid-area: seminars;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .grid-container p{
+        font-family: "Montserrat";  /* Font needs to be changed here */
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(--black-two-kalim);
+    }
+.grid-container img{
+    margin-bottom: 44px;
+}
+
+
+
+
+
+    /* Footer */
+
+/* Footer */
+.footerNav {
+    display: flex;
+    height: 305px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footerNavText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.footerNavText a {
+    font-family: "DIN";
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim); 
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+.footerSocialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 121px;
+}
+
+.footerSocialMedia p {
+    font-family: "DIN";
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);  
+    margin-bottom: 23px;
+}
+
+.footerSocialMedia a img {
+    width: 59px;
+    height: 59px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--black-two-kalim);
+}
+
+.first, .second {
+    font-family: "DIN";
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--powder-pink-kalim);
+}
+
+.second {
+    text-decoration: none;
+}
+
+/* Pink line */
+div:empty {
+    background-color: var(--powder-pink-kalim);
+    width: 100%;
+    height: 8px;
+}
+
+/* Media query */
+@media only screen and (max-width: 900px) {
+
+    /* Header */
+    .header {
+        justify-content: center;
+
+    }
+
+    .headerNav {
+        display: none;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "session-1"
+            "zoom-session"
+            "workshop-session"
+            "group-session"
+            "seminars";
+    }
+    
+
+}

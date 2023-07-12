@@ -1,0 +1,349 @@
+:root {
+    --white: #ffffff;
+    --f8f8f8: #f8f8f8;
+    --black: #212121;
+    --powder-pink-kalim: #e4c0cf;
+    --black-two-kalim: #232323;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url(/component/DINCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/component/Montserrat-Bold.ttf) format("truetype");
+}
+
+
+
+body {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Top Part container */
+.navBar {
+    display: flex;
+    height: 249px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    /* margin-left: 100px; */
+    /* margin: 7vh 0 5vh 3vh; */
+    display: flex;
+    align-items: center;
+
+}
+
+/* Div Logo */
+.logo img {
+
+    width: 57%;
+
+}
+
+/* Div for all the buttons top navbar */
+.navBtn {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
+/* Changing the look of the "a" */
+.navBtn a {
+    text-decoration: none;
+    margin: 0 3vh 0 3vh;
+    font-family: 'DIN';
+    /* font-size: 1.8vh; */
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    font-size: 30px;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+
+}
+
+/* Title Container */
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 9vh;
+}
+
+.title img {
+    width: 22%;
+
+}
+
+.title h1 {
+    margin-top: 11vh;
+    font-family: 'DIN';
+    font-size: 4vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+}
+
+
+/* Sessions containers - 2 same ones */
+
+/* First row */
+.testone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 14vh;
+    padding-bottom: 10vh;
+    margin: 0 25vh 0 25vh;
+}
+
+
+
+
+/* Second row */
+.testtwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 22vh;
+    margin: 0 25vh 0 25vh;
+
+}
+
+/* Last row should be middle */
+.testMiddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 13vh;
+}
+
+.testone img {
+    padding-bottom: 4vh;
+
+}
+
+.testtwo img {
+    padding-bottom: 4vh;
+}
+
+.testMiddle img {
+    padding-bottom: 4vh;
+}
+
+/* Text below images */
+.testone p,
+.testtwo p,
+.testMiddle p {
+    font-family: 'DIN';
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+    text-align: center;
+}
+
+
+/* Hidding small HR for mobile version */
+.smallHR {
+    display: none;
+}
+
+/* Black Line Background (Second Line) */
+.testtwo hr {
+    z-index: -9999;
+    border: 20px solid var(--black-two-kalim);
+    position: absolute;
+    width: 100%;
+    align-self: center;
+
+}
+
+/* Black Line Background (Last Line)*/
+.testMiddle hr {
+    z-index: -9999;
+    border: 20px solid var(--black-two-kalim);
+    position: absolute;
+    width: 100%;
+    align-self: center;
+
+}
+
+/* Black Line Background (First Line) */
+.testone hr {
+    z-index: -9999;
+    border: 20px solid var(--black-two-kalim);
+    position: absolute;
+    width: 100%;
+    align-self: center;
+}
+
+/* Line design */
+div:empty {
+    background-color: var(--powder-pink-kalim);
+    width: 100%;
+    height: 8px;
+    margin-bottom: 7vh;
+}
+
+/* Footer Container */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 7.2vh;
+    margin: 0 13vh 8vh 13vh;
+}
+
+/* Nav buttons */
+.navFooter {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+/* Nav Links */
+.navFooter a {
+    text-decoration: none;
+    margin: 0 37px 18px 0;
+    font-family: 'DIN';
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+
+}
+
+/* Insta Div */
+.contactFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Text */
+.contactFooter p {
+    margin: 0 0 23px;
+    font-family: 'DIN';
+    font-size: 3vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--black-two-kalim);
+}
+
+.contactFooter img {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* black end of page */
+.bottomEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3vh;
+    background-color: var(--black-two-kalim);
+
+}
+
+.bottomEnd p {
+    font-family: 'DIN';
+    font-size: 2vh;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--powder-pink-kalim);
+
+}
+
+.first {
+    margin-right: 23vh;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .navBtn {
+        display: none;
+    }
+
+    .title img {
+        width: 50%;
+    }
+
+    .testone {
+        flex-direction: column;
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .testtwo {
+        flex-direction: column;
+        margin: auto;
+        padding-top: 0;
+    }
+
+    .bigHR {
+        display: none;
+    }
+
+    .testone p {
+        padding-bottom: 5vh;
+    }
+
+    .testtwo p {
+        padding-bottom: 5vh;
+    }
+
+.title img{
+    z-index: -9999;
+}
+
+    .smallHR{
+        z-index: 9999;
+        width: 100%;
+        background: 10px solid red;
+        border: 10px solid red;
+        height: 100%;
+        position: absolute;
+    }
+
+    .title{
+        
+    }
+}
